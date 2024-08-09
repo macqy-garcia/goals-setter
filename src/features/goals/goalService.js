@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-const API_URL = "api/goals/";
+const API_URL = `${process.env.API_BASE_URL}/api/goals/`;
 
 //Create new goal
 const createGoal = async (goalData, token) => {
